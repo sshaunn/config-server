@@ -6,6 +6,6 @@ eureka:
       defaultZone: http://eureka-server:8761/eureka/
   
   instance:
-    prefer-ip-address: true
-    ip-address: http://eureka-server:8761/eureka/
+#     prefer-ip-address: true
+#     ip-address: http://eureka-server:8761/eureka/
     hostname: eureka-server
